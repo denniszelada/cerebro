@@ -1,0 +1,8 @@
+export const CEREBRO_MODULE_OPTIONS = 'CEREBRO_MODULE_OPTIONS';
+export const CEREBRO_BUS = 'CEREBRO_BUS';
+export const CEREBRO_LLM_REGISTRY = 'CEREBRO_LLM_REGISTRY';
+export const CEREBRO_KNOWLEDGE = 'CEREBRO_KNOWLEDGE';
+export const CEREBRO_BRAIN = 'CEREBRO_BRAIN';
+export const CEREBRO_GATEWAY = 'CEREBRO_GATEWAY';
+export const CEREBRO_EXPERT_METADATA = 'cerebro:expert';
+export const CEREBRO_BRAIN_METADATA = 'cerebro:brain';

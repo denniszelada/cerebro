@@ -1,0 +1,47 @@
+{
+  "name": "@cerebro/nestjs",
+  "version": "0.1.0",
+  "description": "NestJS module adapter for Cerebro",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@cerebro/core": "workspace:*",
+    "@cerebro/bus": "workspace:*",
+    "@cerebro/knowledge": "workspace:*",
+    "@cerebro/llm": "workspace:*"
+  },
+  "peerDependencies": {
+    "@nestjs/common": ">=10.0.0",
+    "@nestjs/core": ">=10.0.0",
+    "reflect-metadata": ">=0.1.0"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^10.4.0",
+    "@nestjs/core": "^10.4.0",
+    "reflect-metadata": "^0.2.0",
+    "typescript": "^5.7.0",
+    "tsup": "^8.3.0",
+    "vitest": "^2.1.0"
+  },
+  "license": "MIT"
+}
