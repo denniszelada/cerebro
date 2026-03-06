@@ -8,5 +8,5 @@ export default defineConfig({
   sourcemap: true,
   clean: true,
   treeshake: true,
-  external: ['@anthropic-ai/sdk', '@mistralai/mistralai', 'openai', '@google/generative-ai'],
+  external: ['@anthropic-ai/sdk', '@mistralai/mistralai', 'openai', '@google/generative-ai', '@google/genai'],
 });

@@ -8,3 +8,7 @@ dist/
 coverage/
 *.log
 .DS_Store
+
+# Project-specific examples (keep locally, don't publish)
+examples/vendelo/
+examples/louverdi/
