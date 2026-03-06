@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { LocalBus } from '@cerebro/bus';
+import { LocalBus } from '@denniszelada/cerebro-bus';
 import { Pipeline } from '../pipeline/builder.js';
 import { PipelineExecutor } from '../pipeline/executor.js';
 import { createExecutionContext } from '../types/context.js';

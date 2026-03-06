@@ -1,5 +1,5 @@
 {
-  "name": "@cerebro/bus",
+  "name": "@denniszelada/cerebro-bus",
   "version": "1.0.0",
   "description": "Dual-mode communication bus (EventEmitter + Redis) for Cerebro",
   "repository": {
@@ -8,7 +8,7 @@
     "directory": "packages/bus"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/@denniszelada"
   },
   "type": "module",
   "main": "./dist/index.cjs",

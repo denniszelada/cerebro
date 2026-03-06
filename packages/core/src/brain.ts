@@ -1,7 +1,7 @@
-import type { IBus } from '@cerebro/bus';
-import type { ILLMProvider, LLMMessage } from '@cerebro/llm';
-import type { ProviderRegistry } from '@cerebro/llm';
-import type { IKnowledgeStore } from '@cerebro/knowledge';
+import type { IBus } from '@denniszelada/cerebro-bus';
+import type { ILLMProvider, LLMMessage } from '@denniszelada/cerebro-llm';
+import type { ProviderRegistry } from '@denniszelada/cerebro-llm';
+import type { IKnowledgeStore } from '@denniszelada/cerebro-knowledge';
 import type {
   BrainConfig,
   BrainRequest,

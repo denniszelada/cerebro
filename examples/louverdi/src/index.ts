@@ -8,15 +8,15 @@
  * - GuidelineCreator: Creates processing guidelines based on document type
  */
 
-import { LocalBus } from '@cerebro/bus';
+import { LocalBus } from '@denniszelada/cerebro-bus';
 import {
   Expert,
   Pipeline,
   PipelineExecutor,
   createExecutionContext,
-} from '@cerebro/core';
-import type { ExpertTask, ExpertResult, ExecutionContext } from '@cerebro/core';
-import { HybridStore } from '@cerebro/knowledge';
+} from '@denniszelada/cerebro-core';
+import type { ExpertTask, ExpertResult, ExecutionContext } from '@denniszelada/cerebro-core';
+import { HybridStore } from '@denniszelada/cerebro-knowledge';
 
 // ─── Document Extractor Expert ───────────────────────────────────────────────
 class DocumentExtractorExpert extends Expert {

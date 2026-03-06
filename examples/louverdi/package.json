@@ -1,5 +1,5 @@
 {
-  "name": "@cerebro/example-louverdi",
+  "name": "@denniszelada/cerebro-example-louverdi",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -7,10 +7,10 @@
     "start": "tsx src/index.ts"
   },
   "dependencies": {
-    "@cerebro/core": "workspace:*",
-    "@cerebro/bus": "workspace:*",
-    "@cerebro/llm": "workspace:*",
-    "@cerebro/knowledge": "workspace:*"
+    "@denniszelada/cerebro-core": "workspace:*",
+    "@denniszelada/cerebro-bus": "workspace:*",
+    "@denniszelada/cerebro-llm": "workspace:*",
+    "@denniszelada/cerebro-knowledge": "workspace:*"
   },
   "devDependencies": {
     "tsx": "^4.19.0",

@@ -1,5 +1,5 @@
 {
-  "name": "@cerebro/core",
+  "name": "@denniszelada/cerebro-core",
   "version": "1.0.0",
   "description": "Core types, Brain, Expert, Gateway, and Pipeline for Cerebro agentic framework",
   "repository": {
@@ -8,7 +8,7 @@
     "directory": "packages/core"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/@denniszelada"
   },
   "type": "module",
   "main": "./dist/index.cjs",
@@ -33,9 +33,9 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@cerebro/bus": "workspace:*",
-    "@cerebro/knowledge": "workspace:*",
-    "@cerebro/llm": "workspace:*"
+    "@denniszelada/cerebro-bus": "workspace:*",
+    "@denniszelada/cerebro-knowledge": "workspace:*",
+    "@denniszelada/cerebro-llm": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5.7.0",

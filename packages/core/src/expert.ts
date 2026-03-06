@@ -1,5 +1,5 @@
-import type { IBus } from '@cerebro/bus';
-import type { ILLMProvider } from '@cerebro/llm';
+import type { IBus } from '@denniszelada/cerebro-bus';
+import type { ILLMProvider } from '@denniszelada/cerebro-llm';
 import type { ExecutionContext } from './types/context.js';
 import { createExecutionContext } from './types/context.js';
 import type { ExpertConfig, ExpertResult, ExpertTask, IExpert } from './types/expert.js';

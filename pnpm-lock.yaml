@@ -41,16 +41,16 @@ importers:
 
   examples/basic:
     dependencies:
-      '@cerebro/bus':
+      '@denniszelada/cerebro-bus':
         specifier: workspace:*
         version: link:../../packages/bus
-      '@cerebro/core':
+      '@denniszelada/cerebro-core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@cerebro/knowledge':
+      '@denniszelada/cerebro-knowledge':
         specifier: workspace:*
         version: link:../../packages/knowledge
-      '@cerebro/llm':
+      '@denniszelada/cerebro-llm':
         specifier: workspace:*
         version: link:../../packages/llm
     devDependencies:
@@ -63,16 +63,16 @@ importers:
 
   examples/louverdi:
     dependencies:
-      '@cerebro/bus':
+      '@denniszelada/cerebro-bus':
         specifier: workspace:*
         version: link:../../packages/bus
-      '@cerebro/core':
+      '@denniszelada/cerebro-core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@cerebro/knowledge':
+      '@denniszelada/cerebro-knowledge':
         specifier: workspace:*
         version: link:../../packages/knowledge
-      '@cerebro/llm':
+      '@denniszelada/cerebro-llm':
         specifier: workspace:*
         version: link:../../packages/llm
     devDependencies:
@@ -85,16 +85,16 @@ importers:
 
   examples/vendelo:
     dependencies:
-      '@cerebro/bus':
+      '@denniszelada/cerebro-bus':
         specifier: workspace:*
         version: link:../../packages/bus
-      '@cerebro/core':
+      '@denniszelada/cerebro-core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@cerebro/knowledge':
+      '@denniszelada/cerebro-knowledge':
         specifier: workspace:*
         version: link:../../packages/knowledge
-      '@cerebro/llm':
+      '@denniszelada/cerebro-llm':
         specifier: workspace:*
         version: link:../../packages/llm
     devDependencies:
@@ -123,13 +123,13 @@ importers:
 
   packages/core:
     dependencies:
-      '@cerebro/bus':
+      '@denniszelada/cerebro-bus':
         specifier: workspace:*
         version: link:../bus
-      '@cerebro/knowledge':
+      '@denniszelada/cerebro-knowledge':
         specifier: workspace:*
         version: link:../knowledge
-      '@cerebro/llm':
+      '@denniszelada/cerebro-llm':
         specifier: workspace:*
         version: link:../llm
     devDependencies:
@@ -188,16 +188,16 @@ importers:
 
   packages/nestjs:
     dependencies:
-      '@cerebro/bus':
+      '@denniszelada/cerebro-bus':
         specifier: workspace:*
         version: link:../bus
-      '@cerebro/core':
+      '@denniszelada/cerebro-core':
         specifier: workspace:*
         version: link:../core
-      '@cerebro/knowledge':
+      '@denniszelada/cerebro-knowledge':
         specifier: workspace:*
         version: link:../knowledge
-      '@cerebro/llm':
+      '@denniszelada/cerebro-llm':
         specifier: workspace:*
         version: link:../llm
     devDependencies:

@@ -7,14 +7,14 @@
  * - CustomerServiceExpert generates a personalized response using customer context
  */
 
-import { LocalBus } from '@cerebro/bus';
+import { LocalBus } from '@denniszelada/cerebro-bus';
 import {
   Expert,
   Pipeline,
   PipelineExecutor,
   createExecutionContext,
-} from '@cerebro/core';
-import type { ExpertTask, ExpertResult, ExecutionContext } from '@cerebro/core';
+} from '@denniszelada/cerebro-core';
+import type { ExpertTask, ExpertResult, ExecutionContext } from '@denniszelada/cerebro-core';
 
 // ─── Simulated CRM Service ──────────────────────────────────────────────────
 const crmDatabase: Record<string, { name: string; plan: string; lastPurchase: string; balance: number }> = {

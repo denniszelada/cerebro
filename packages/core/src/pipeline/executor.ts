@@ -1,4 +1,4 @@
-import type { IBus } from '@cerebro/bus';
+import type { IBus } from '@denniszelada/cerebro-bus';
 import type { ExecutionContext } from '../types/context.js';
 import type { ExpertResult } from '../types/expert.js';
 import type {

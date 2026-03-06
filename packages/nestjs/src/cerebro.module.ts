@@ -1,8 +1,8 @@
 import { type DynamicModule, Module } from '@nestjs/common';
-import { createBus } from '@cerebro/bus';
-import { Brain, Gateway } from '@cerebro/core';
-import { ProviderRegistry } from '@cerebro/llm';
-import { HybridStore, loadYamlKnowledge } from '@cerebro/knowledge';
+import { createBus } from '@denniszelada/cerebro-bus';
+import { Brain, Gateway } from '@denniszelada/cerebro-core';
+import { ProviderRegistry } from '@denniszelada/cerebro-llm';
+import { HybridStore, loadYamlKnowledge } from '@denniszelada/cerebro-knowledge';
 import {
   CEREBRO_BUS,
   CEREBRO_BRAIN,

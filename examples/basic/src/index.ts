@@ -8,7 +8,7 @@
  * - Gateway processing a request
  */
 
-import { LocalBus, StreamSession } from '@cerebro/bus';
+import { LocalBus, StreamSession } from '@denniszelada/cerebro-bus';
 import {
   Expert,
   Pipeline,
@@ -16,11 +16,11 @@ import {
   Gateway,
   Brain,
   createExecutionContext,
-} from '@cerebro/core';
-import type { ExpertTask, ExpertResult, ExecutionContext } from '@cerebro/core';
-import { ProviderRegistry } from '@cerebro/llm';
-import type { ILLMProvider, LLMMessage, LLMOptions, LLMResponse, LLMChunk } from '@cerebro/llm';
-import { HybridStore, loadYamlKnowledge } from '@cerebro/knowledge';
+} from '@denniszelada/cerebro-core';
+import type { ExpertTask, ExpertResult, ExecutionContext } from '@denniszelada/cerebro-core';
+import { ProviderRegistry } from '@denniszelada/cerebro-llm';
+import type { ILLMProvider, LLMMessage, LLMOptions, LLMResponse, LLMChunk } from '@denniszelada/cerebro-llm';
+import { HybridStore, loadYamlKnowledge } from '@denniszelada/cerebro-knowledge';
 
 // ─── Mock LLM Provider ──────────────────────────────────────────────────────
 // In production, replace with ClaudeProvider, OpenAIProvider, etc.

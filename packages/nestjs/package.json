@@ -1,5 +1,5 @@
 {
-  "name": "@cerebro/nestjs",
+  "name": "@denniszelada/cerebro-nestjs",
   "version": "1.0.0",
   "description": "NestJS module adapter for Cerebro",
   "repository": {
@@ -8,7 +8,7 @@
     "directory": "packages/nestjs"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/@denniszelada"
   },
   "type": "module",
   "main": "./dist/index.cjs",
@@ -33,10 +33,10 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@cerebro/core": "workspace:*",
-    "@cerebro/bus": "workspace:*",
-    "@cerebro/knowledge": "workspace:*",
-    "@cerebro/llm": "workspace:*"
+    "@denniszelada/cerebro-core": "workspace:*",
+    "@denniszelada/cerebro-bus": "workspace:*",
+    "@denniszelada/cerebro-knowledge": "workspace:*",
+    "@denniszelada/cerebro-llm": "workspace:*"
   },
   "peerDependencies": {
     "@nestjs/common": ">=10.0.0",

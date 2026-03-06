@@ -1,7 +1,7 @@
 import { Inject, Injectable, type OnModuleDestroy } from '@nestjs/common';
-import type { IBus } from '@cerebro/bus';
-import type { Gateway, Brain } from '@cerebro/core';
-import type { GatewayInput, GatewayOutput } from '@cerebro/core';
+import type { IBus } from '@denniszelada/cerebro-bus';
+import type { Gateway, Brain } from '@denniszelada/cerebro-core';
+import type { GatewayInput, GatewayOutput } from '@denniszelada/cerebro-core';
 import { CEREBRO_BUS, CEREBRO_BRAIN, CEREBRO_GATEWAY } from './constants.js';
 
 @Injectable()

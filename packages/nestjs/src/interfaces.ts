@@ -1,6 +1,6 @@
-import type { BusFactoryOptions } from '@cerebro/bus';
-import type { BrainConfig } from '@cerebro/core';
-import type { ILLMProvider } from '@cerebro/llm';
+import type { BusFactoryOptions } from '@denniszelada/cerebro-bus';
+import type { BrainConfig } from '@denniszelada/cerebro-core';
+import type { ILLMProvider } from '@denniszelada/cerebro-llm';
 import type { InjectionToken, ModuleMetadata, OptionalFactoryDependency } from '@nestjs/common';
 
 export interface CerebroModuleOptions {

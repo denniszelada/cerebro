@@ -1,5 +1,5 @@
 {
-  "name": "@cerebro/llm",
+  "name": "@denniszelada/cerebro-llm",
   "version": "1.0.0",
   "description": "Multi-provider LLM abstraction for Cerebro",
   "repository": {
@@ -8,7 +8,7 @@
     "directory": "packages/llm"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/@denniszelada"
   },
   "type": "module",
   "main": "./dist/index.cjs",

@@ -1,5 +1,5 @@
 {
-  "name": "@cerebro/knowledge",
+  "name": "@denniszelada/cerebro-knowledge",
   "version": "1.0.0",
   "description": "Hybrid knowledge store (YAML + Vector DB) for Cerebro",
   "repository": {
@@ -8,7 +8,7 @@
     "directory": "packages/knowledge"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/@denniszelada"
   },
   "type": "module",
   "main": "./dist/index.cjs",
